@@ -12,14 +12,15 @@
         return n1 * n2;
     }
 
-   public double dividir(double a, double b) {
-    if (b == 0) {
+   public double dividir(double n1, double n2) {
+    if (n2 == 0 || n1 == 0) {
         System.out.println("Não é possível dividir por zero.");
         return 0;
     } else {
-        return a / b;
+        return n1 / n2;
 
     }
  }
 }
+
 
